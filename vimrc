@@ -7,6 +7,7 @@ filetype plugin indent on
 let mapleader=","
 
 """""" jedi-vim
+let g:auto_initialization = 1
 let g:jedi#goto_assignments_command = "<leader>g"
 let g:jedi#goto_definitions_command = "<leader>d"
 let g:jedi#documentation_command = "K"
