@@ -22,3 +22,8 @@ set t_Co=256
 " Minibufexpl
 map <F2> :MBEbp<CR>
 map <F3> :MBEbn<CR>
+
+" tab control
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
