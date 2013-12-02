@@ -1,6 +1,9 @@
 execute pathogen#infect()
 execute pathogen#helptags()
 
+filetype on            " enables filetype detection
+filetype plugin on     " enables filetype specific plugins
+
 syntax on
 filetype plugin indent on
 
@@ -27,3 +30,5 @@ map <F3> :MBEbn<CR>
 :set tabstop=4
 :set shiftwidth=4
 :set expandtab
+
+colorscheme mustang
