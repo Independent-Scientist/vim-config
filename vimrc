@@ -26,6 +26,9 @@ set t_Co=256
 map <F2> :MBEbp<CR>
 map <F3> :MBEbn<CR>
 
+" fuzzy finder shortcuts
+map <C-p> :FufBufferTag<CR>
+
 " tab control
 :set tabstop=4
 :set shiftwidth=4
