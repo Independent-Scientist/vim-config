@@ -15,3 +15,4 @@ git clone git://github.com/tpope/vim-fugitive.git
 git clone https://github.com/majutsushi/tagbar
 git clone https://github.com/xolox/vim-misc.git
 git clone https://github.com/xolox/vim-easytags.git
+git clone https://github.com/matze/vim-move.git
