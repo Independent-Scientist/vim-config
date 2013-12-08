@@ -31,4 +31,8 @@ map <F3> :MBEbn<CR>
 :set shiftwidth=4
 :set expandtab
 
+" theme
 colorscheme mustang
+
+" vim-move key
+let g:move_key_modifier = 'C'
