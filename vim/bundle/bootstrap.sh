@@ -16,3 +16,4 @@ git clone https://github.com/majutsushi/tagbar
 git clone https://github.com/xolox/vim-misc.git
 git clone https://github.com/xolox/vim-easytags.git
 git clone https://github.com/matze/vim-move.git
+git clone https://github.com/Valloric/vim-valloric-colorscheme

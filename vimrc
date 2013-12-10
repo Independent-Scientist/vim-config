@@ -28,6 +28,7 @@ map <F3> :MBEbn<CR>
 
 " fuzzy finder shortcuts
 map <C-p> :FufBufferTag<CR>
+map <C-P> :FufFile<CR>
 
 " tab control
 :set tabstop=4
@@ -36,6 +37,7 @@ map <C-p> :FufBufferTag<CR>
 
 " theme
 colorscheme mustang
+"colorscheme valloric
 
 " vim-move key
 let g:move_key_modifier = 'C'
