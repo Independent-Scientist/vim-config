@@ -41,3 +41,7 @@ colorscheme mustang
 
 " vim-move key
 let g:move_key_modifier = 'C'
+
+"eclim autocomplete to YCM
+let g:EclimCompletionMethod = 'omnifunc'
+
