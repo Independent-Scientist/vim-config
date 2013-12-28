@@ -27,14 +27,18 @@ map <F2> :MBEbp<CR>
 map <F3> :MBEbn<CR>
 
 " fuzzy finder shortcuts
-map <C-p> :FufBufferTag<CR>
+"map <C-p> :FufBufferTag<CR>
+map <Leader>t :FufBufferTag<CR>
 map <C-P> :FufFile<CR>
+
+" Most Recently Used files.
+map <Leader>m :MRU<CR>
 
 " tab control
 :set tabstop=4
 :set shiftwidth=4
 :set expandtab
-
+:set tw=80
 " theme
 colorscheme mustang
 "colorscheme valloric
