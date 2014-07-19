@@ -22,6 +22,7 @@ set laststatus=2
 " colours)
 set t_Co=256
 
+" configuration for gvim font
 if has("gui_running")
     if has("gui_gtk2")
         set guifont=Monospace\ 8
