@@ -22,6 +22,12 @@ set laststatus=2
 " colours)
 set t_Co=256
 
+if has("gui_running")
+    if has("gui_gtk2")
+        set guifont=Monospace\ 8
+    endif
+endif
+
 " Minibufexpl
 map <F2> :MBEbp<CR>
 map <F3> :MBEbn<CR>
