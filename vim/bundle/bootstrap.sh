@@ -17,4 +17,4 @@ git clone https://github.com/xolox/vim-easytags.git
 git clone https://github.com/matze/vim-move.git
 git clone https://github.com/Valloric/vim-valloric-colorscheme
 git clone https://github.com/mantiz/vim-plugin-l9.git
-git clone https://github.com/xieyu/pyclewn.git
+git clone https://github.com/vim-scripts/Conque-GDB

@@ -41,6 +41,11 @@ map <C-P> :FufFile<CR>
 " Most Recently Used files.
 map <Leader>m :MRU<CR>
 
+" search pattern over files in directory
+"map <F4> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git --exclude-from=exclude.list . -e " . expand("<cword>") . " " <bar> cwindow<CR>
+
+map <F4> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git . -e " . expand("<cword>") . " " <bar> cwindow<CR>
+
 " tab control
 :set tabstop=4
 :set shiftwidth=4
