@@ -35,16 +35,15 @@ map <F3> :MBEbn<CR>
 
 " fuzzy finder shortcuts
 "map <C-p> :FufBufferTag<CR>
-map <Leader>t :FufBufferTag<CR>
+map <F4> :FufBufferTag<CR>
 map <C-P> :FufFile<CR>
 
-" Most Recently Used files.
-map <Leader>m :MRU<CR>
+" Search pattern all files.
+map <F6> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git . -e " . expand("<cword>") . " " <bar> cwindow<CR>
 
 " search pattern over files in directory
 "map <F4> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git --exclude-from=exclude.list . -e " . expand("<cword>") . " " <bar> cwindow<CR>
 
-map <F4> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git . -e " . expand("<cword>") . " " <bar> cwindow<CR>
 
 " tab control
 :set tabstop=4
@@ -60,4 +59,6 @@ let g:move_key_modifier = 'C'
 
 "eclim autocomplete to YCM
 let g:EclimCompletionMethod = 'omnifunc'
+
+let g:easytags_auto_update = 0
 
