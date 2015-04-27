@@ -50,6 +50,7 @@ map <F6> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git .
 :set shiftwidth=4
 :set expandtab
 :set tw=80
+
 " theme
 colorscheme mustang
 "colorscheme valloric

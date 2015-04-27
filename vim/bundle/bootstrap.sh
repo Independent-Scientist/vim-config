@@ -18,3 +18,4 @@ git clone https://github.com/matze/vim-move.git
 git clone https://github.com/Valloric/vim-valloric-colorscheme
 git clone https://github.com/mantiz/vim-plugin-l9.git
 git clone https://github.com/vim-scripts/Conque-GDB
+git clone https://github.com/scrooloose/nerdcommenter.git
