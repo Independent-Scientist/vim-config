@@ -13,7 +13,8 @@ let mapleader=","
 " toggle NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+" *** POWERLINE ***
+set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim
 
 " Always show statusline
 set laststatus=2
@@ -21,6 +22,7 @@ set laststatus=2
 " " Use 256 colours (Use this setting only if your terminal supports 256
 " colours)
 set t_Co=256
+"******************
 
 " configuration for gvim font
 if has("gui_running")
@@ -30,8 +32,8 @@ if has("gui_running")
 endif
 
 " Minibufexpl
-map <F2> :MBEbp<CR>
-map <F3> :MBEbn<CR>
+"map <F2> :MBEbp<CR>
+"map <F3> :MBEbn<CR>
 
 " fuzzy finder shortcuts
 "map <C-p> :FufBufferTag<CR>
@@ -63,3 +65,7 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 let g:easytags_auto_update = 0
 
+" TABS
+set tabpagemax=15
+map <F2> :tabprevious<CR>
+map <F3> :tabnext<CR>
