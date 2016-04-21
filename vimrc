@@ -38,7 +38,7 @@ endif
 " fuzzy finder shortcuts
 "map <C-p> :FufBufferTag<CR>
 map <F4> :FufBufferTag<CR>
-map <C-P> :FufFile<CR>
+"map <C-P> :FufFile<CR>
 
 " Search pattern all files.
 map <F6> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git . -e " . expand("<cword>") . " " <bar> cwindow<CR>
@@ -69,3 +69,6 @@ let g:easytags_auto_update = 0
 set tabpagemax=15
 map <F2> :tabprevious<CR>
 map <F3> :tabnext<CR>
+
+" ctags stuff
+set tags=.tags;
