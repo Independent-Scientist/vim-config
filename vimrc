@@ -57,6 +57,9 @@ map <F6> :execute " grep -srnw --binary-files=without-match --exclude-dir=.git .
 colorscheme mustang
 "colorscheme valloric
 
+"Set transparency.
+hi Normal guibg=NONE ctermbg=NONE
+
 " vim-move key
 let g:move_key_modifier = 'C'
 
