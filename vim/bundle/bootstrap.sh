@@ -20,3 +20,4 @@ git clone https://github.com/mantiz/vim-plugin-l9.git
 git clone https://github.com/scrooloose/nerdcommenter.git
 git clone https://github.com/ctrlpvim/ctrlp.vim.git
 git clone https://github.com/mileszs/ack.vim.git
+git clone https://github.com/jupyter-vim/jupyter-vim.git
